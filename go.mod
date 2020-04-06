@@ -11,7 +11,7 @@ require (
 	github.com/golangci/revgrep v0.0.0-20180812185044-276a5c0a1039 // indirect
 	github.com/gostaticanalysis/analysisutil v0.0.3 // indirect
 	github.com/konsorten/go-windows-terminal-sequences v1.0.2 // indirect
-	github.com/lightstep/lightstep-tracer-go v0.17.1
+	github.com/lightstep/lightstep-tracer-go v0.0.0-00010101000000-000000000000 // indirect
 	github.com/magiconair/properties v1.8.1 // indirect
 	github.com/mattn/go-isatty v0.0.10 // indirect
 	github.com/onsi/ginkgo v1.10.3 // indirect
@@ -31,3 +31,5 @@ require (
 	mvdan.cc/unparam v0.0.0-20190917161559-b83a221c10a2 // indirect
 	sourcegraph.com/sqs/pbtypes v1.0.0 // indirect
 )
+
+replace github.com/lightstep/lightstep-tracer-go => github.com/bigkraig/lightstep-tracer-go v0.20.1-0.20200406214528-84fc10ef0a50
